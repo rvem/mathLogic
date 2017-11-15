@@ -70,7 +70,7 @@ def get_free(expr, variables, free_variables):
     elif isinstance(expr, Unary):
         return get_free(expr.val, variables, free_variables)
     elif isinstance(expr, Binary):
-        return get_free(expr.left, variables, free_variables) & get_free(expr.right, variables,
+        return get_free(expr.left, variables, free_variables) | get_free(expr.right, variables,
                                                                          free_variables)
     return free_variables
 
