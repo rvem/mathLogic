@@ -1,3 +1,3 @@
 # mathlogic
-Homeworks for Mathematical Logic course
+Homeworks for Mathematical Logic course  
 HW2 requiers antlr4-python3-runtime package
