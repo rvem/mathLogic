@@ -109,7 +109,7 @@ class Exists(Unary):
 
 
 class Predicate(Unary):
-    def __init__(self, name, values):
+    def __init__(self, name, values=[]):
         self.name = name
         super().__init__(values)
         self.__rehash()

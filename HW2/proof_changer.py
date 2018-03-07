@@ -1,5 +1,6 @@
-from expression import *
 from parser import parse
+
+from expression import *
 
 
 def change_proof(proof, last_assumption):
